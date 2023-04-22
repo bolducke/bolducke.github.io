@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Websites Designs/Creations
-description: Websites
-img: assets/img/projects/websites/inrenovation_contact.png
+title: Websites
+description: Websites Designs & Creations
+img: assets/img/projects/websites/inrenovation_home.png
 importance: 1
 category: work
 ---
 
 In the summer of 2020, while I was a second-year student at university, I wanted to experiment web technologies because I didn't have the chance to explore before. I throw myself at the most common framework such as laravel, django, vuejs and firebase. Over 2020, I produce two websites.
 
-## In Renovation I.N inc (Summer 2020)
+## [In Renovation I.N inc](https://inrenovation.com/) (Summer 2020)
 
-[inrenovation.com](https://inrenovation.com/)
+[source code](https://github.com/bolducke/website_inrenovationinc)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,7 +27,7 @@ In the summer of 2020, while I was a second-year student at university, I wanted
 
 ### Motivation
 
-I made contact with a contractor needed to rework his website. After we discuss the requirements, I rapidly started to use the tool that I learned over the summer.
+I made contact with a contractor needed to rework his website. After we discuss the requirements, I rapidly started to use the tool that I learned over the summer. I was responsible of the overall conception.
 
 ### Overall Requirements
 * Look Modern & Professional
@@ -49,6 +49,8 @@ I made contact with a contractor needed to rework his website. After we discuss 
 
 ## Lan "Quart de Nuit" [Draft] (Spring 2020)
 
+[source code](https://github.com/lan-pascal)
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/websites/qdn_home.png" title="In Renovation Home" class="img-fluid rounded z-depth-1" %}
@@ -62,6 +64,8 @@ I made contact with a contractor needed to rework his website. After we discuss 
 </div>
 
 With great friends, I help organize small events where people would play together on different type of games from the evening through the morning. (This is why we named the event "Quart de Nuit" [Night Shift]) We did 3-4 events at a Gaming Cafe and were able to regroup 30 people. Then, we decided to go bigger and loan a room. We try to have a karaoke, a screen with the competition, a local gaming stands to play together, some gaming board games and a bar. We decided that we needed a website so that it would be simpler to be paid. Sadly, the pandemic happened and we had to cancel everyting.
+
+I was responsible of the overall backend/frontend communication with the API.
 
 ### Overall Requirements
 * Countdown
