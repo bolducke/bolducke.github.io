@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: project
 permalink: /projects/
-description: Collections of Projects that I worked on
+description: Collections of projects that I worked on
 nav: true
 nav_order: 2
 enable_project_categories: false
