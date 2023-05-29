@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Volumetric Path Tracing
-description: MSI 882 Path Tracing - Final Project
+description: MTI 882 Path Tracing - Final Project
 img: assets/img/projects/path_tracer/final_composition.png
 importance: 1
 category: formation

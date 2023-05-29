@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design Takeaway _ ECS-Like (Archetypes) _ Overengineer/Overthink Breakout Clone
+title: Design Takeaway | ECS-Like (Archetypes) - Overengineer/Overthink Breakout Clone
 date: 2023-05-28 11:59:00-0000
 description: A small breakdown of my architecture experimentation on my breakout clone
 categories: Odin SDL Languages
@@ -9,8 +9,6 @@ related_posts: false
 ---
 
 [source code](https://github.com/bolducke/OOBC)
-
-# Design Takeaway: ECS-Like (Archetypes) - Overengineer/Overthink Breakout Clone
 
 For my breakout game, I wanted to explore different architectural designs and stay away from OOP. I intentionally overcomplicated my project to identify more easily the potential "pain point".
 
