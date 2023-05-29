@@ -10,7 +10,7 @@ category: hobby
 {% include figure.html path="assets/img/projects/oobc/game.png" title="In Renovation Home" class="img-fluid rounded z-depth-1 center" %}
 
 
-[source_code](https://github.com/bolducke/exploration_odin-architecture/tree/master)
+[source_code](https://github.com/bolducke/OOBC)
 
 # Overengineer/Overthink Breakout Clone
 

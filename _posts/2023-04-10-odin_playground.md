@@ -8,7 +8,7 @@ disqus_comments: false
 related_posts: false
 ---
 
-[source code](https://github.com/bolducke/exploration_odin-architecture/tree/master)
+[source code](https://github.com/bolducke/OOBC)
 
 ## Odin
 
