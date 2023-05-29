@@ -4,7 +4,7 @@ title: IDCards Generators
 description: Small Script to generate IDCards and print them
 img: https://user-images.githubusercontent.com/26026137/233532015-bd9e0607-3aa1-4786-99a0-5040b3a5d350.png
 importance: 1
-category: work
+category: freelance
 ---
 
 

@@ -4,7 +4,7 @@ title: Websites
 description: Websites Designs & Creations
 img: assets/img/projects/websites/inrenovation_home.png
 importance: 1
-category: work
+category: freelance
 ---
 
 In the summer of 2020, while I was a second-year student at university, I wanted to experiment web technologies because I didn't have the chance to explore before. I throw myself at the most common framework such as laravel, django, vuejs and firebase. Over 2020, I produce two websites.

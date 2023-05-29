@@ -5,7 +5,8 @@ permalink: /projects/
 description: Collections of projects that I worked on
 nav: true
 nav_order: 2
-enable_project_categories: false
+display_categories: [formation, hobby, freelance]
+enable_project_categories: true
 horizontal: false
 ---
 
