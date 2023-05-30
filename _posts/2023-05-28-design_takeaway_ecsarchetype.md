@@ -10,20 +10,20 @@ related_posts: false
 
 [source code](https://github.com/bolducke/OOBC)
 
-For my breakout game, I wanted to explore different architectural designs and stay away from OOP. I intentionally overcomplicated my project to identify more easily the potential "pain point".
+For my breakout game, I wanted to explore different architectural designs and stay away from OOP. I intentionally overcomplicated my project to identify more easily the potential "pain point" from such design that are harder to detect from "synthetic" test case.
 
 ## Close Set / Open Set Mindset
 
-My mindset was to change my perspective from an "open-set" to a "close-set" problem. It's very hard to successfully create a *future-proof* project/library. A good *real-life* example is Vulkan with their API where they recently *backed down* from their original API (proposed in 2012) because most people, in the game dev. community, were unsatisfied.
+My mindset was to change my perspective from an "open-set" to a "close-set" problem. It's very hard to successfully create a *future-proof* project/library. A good *real-life* example is Vulkan with their API where they recently *backed down* from their original API (proposed in 2016) because most people, in the game dev. community, were unsatisfied.
 
-In that regard, I used an approach where I try the simpler approach responding to the direct need. I force myself to solve it with the given constraints and only to add feature if necessary. I find myself being way more efficient.
+In that regard, by having an "close-set" mentality, I went for the simplest approach that I came up. In small time frame, I was able to build something way more efficiently than before. 
 
-### ECS Coupling
+## ECS Coupling
 
-ECS-like architecture is a great way to make your code more modular while not compromising too much on performance. However, Pure ECS make it harder to apply when systems are coupled/related (which happen all the time). This is an issue on its own. (There is multiple blog post on the matter on the internet). In practice, it involves dealing with events, callbacks, and dynamic components. Even for entities, it can be a little overwhelming (See (https://skypjack.github.io/2019-06-25-ecs-baf-part-4/)).
+ECS-like architecture is a great way to make your code more modular while not compromising too much on performance. However, Pure ECS can be a little janky when systems are coupled/related (which happen all the time). This is an issue on its own. (There is multiple blog post on the matter on the internet). In practice, it involves dealing with events, callbacks, and dynamic components. Even for entities, it can be a little overwhelming (See (https://skypjack.github.io/2019-06-25-ecs-baf-part-4/)).
 
 #### Systems
-Instead, I went for a "simpler" approach where each system gathers information through their process, and then, in the main loop, you intertwine those pieces of information "manually". As the developper of my project, I find it easier to make the systems interact together.
+Instead, I went, again, for a "simpler" approach where each system gathers information through their process, and then, in the main loop, you intertwine those pieces of information "manually". As a developper, I find it easier to make the systems interact together than to rely on "black-box" framework.
 
 #### Entity
 I went for a pointer/index-based approach that references each entity internally through a tree-like data structure as mentioned in the blog post of Skypjack.
@@ -32,11 +32,11 @@ I went for a pointer/index-based approach that references each entity internally
 
 There is no unique way to represent an ECS system. In practice, however, there is two mainstream way. You can separate each likable entity with a common archetype or trait each component individually. In the former case, you have a pool of components for every archetype. In the latter case, your components are all share in a common pool.
 
-Personally, I separate each pool statiscally for ease of use based on their archetype to make it easier to process them because as mentioned in the Open/Close Mindset, I should be well aware of the intended usage. However, this approach make it harder to add personalized components for a specific entity. It can felt short if you need customization. Using a Common Pool for every component is probably better in those cases.
+Personally, I separate each pool statiscally to make it easier to process them because it is common to apply logic based on specific type that share common components, but behave differently. However, It make it harder to add "custom" information to one entity. It's hard to say if I should change my way of thinking or use a common pool so that it is easier to add components dynamically.
 
-### Breakdown: Subtype Polymorphism & Archetype Design
+## Breakdown: Subtype Polymorphism & Archetype Design
 
-I try to find an alternative way of programing stepping away from Subtype Polymorphism & OOP. If you try to apply them religiously, you often fell in an over-abstraction layer which slow down significatly the project. Data-Oriented/ECS tend to be better for close-set problem at least for me. If you don't require your solution to be used in unexpected context, why should you overcomplicate your design to fit such need? This is a very profound and interesting subject and I am just beginning to form an opinion of my own, so don't take this too seriously.
+Before this experiment, I always went for OOP without truly thinking about why I was using OOP in the first place. I try something differently. I was always finding myself in this over-abstraction hole and was heavily slowdown. Anyway, this is a very profound and interesting subject and I am just beginning to form an opinion of my own. I present two simple showcase highlighting the main difference between those two approaches.
 
 #### Subtype Polymorphism
 
@@ -122,7 +122,7 @@ main :: proc() {
 
 #### ECS-Like
 
-In ECS-like archetype, I keep every entity. In that regards, I only need to see if both share common components. If it is the case, I process them together or not.
+In ECS-like archetype, I keep every entity into different block of memory for each archetype. I can reduce duplication of code between entity that share similar behavior.
 
 {% raw %}
 ```C
