@@ -3,7 +3,7 @@ layout: post
 title: Playing with Odin
 date: 2023-04-10 11:59:00-0000
 description: A small breakdown of an app that I built with Odin and my half-baked opinion on the language
-categories: Odin SDL Architecture-Design Languages
+categories: Odin SDL Languages
 disqus_comments: false
 related_posts: false
 ---
