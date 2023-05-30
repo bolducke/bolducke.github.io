@@ -16,19 +16,19 @@ Here a small showcase of the algorithms that we implemented in our course.
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
-            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_bunny.png" title="ARAP Before" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_bunny.png" title="Eigenvalues" class="img-fluid rounded z-depth-1" %}
         </center>
     </div>
 
     <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
-            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_camel.png" title="ARAP Before" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_camel.png" title="Eigenvalues" class="img-fluid rounded z-depth-1" %}
         </center>
     </div>
 
     <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
-            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_lowpolycamel.png" title="ARAP Before" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/eigendecomposition_lowpolycamel.png" title="Eigenvalues" class="img-fluid rounded z-depth-1" %}
         </center>
     </div>
 
@@ -43,7 +43,7 @@ Here a small showcase of the algorithms that we implemented in our course.
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
-        {% include figure.html path="assets/img/projects/ift6113_geometry_processing/arap_armadillo.png" title="ARAP After" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/ift6113_geometry_processing/arap_armadillo.png" title="ARAP Armadillo" class="img-fluid rounded z-depth-1" %}
     </center>
 
     <center>
@@ -55,7 +55,7 @@ Here a small showcase of the algorithms that we implemented in our course.
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
-            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/biharmonic_arap_bar.png" title="Biharmonic Bar" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/projects/ift6113_geometry_processing/biharmonic_arap_bar.png" title="Biharmonic Arap Bar" class="img-fluid rounded z-depth-1" %}
     </center>
 
     <center>
@@ -69,14 +69,13 @@ Here a small showcase of the algorithms that we implemented in our course.
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
-    {% include figure.html path="assets/img/projects/ift6113_geometry_processing/heat_evolution_bunny.png" title="Heat Evolution Bunny" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/projects/ift6113_geometry_processing/heat_evolution_bunny.png" title="Heat Evolution on a Bunny" class="img-fluid rounded z-depth-1" %}
     </center>
     <center>
         <div>
             Random initiliaziation of heat. Then, vizualisation of different step through the heat propagation on the manifold.
         </div>
     </center>
-
 </div>
 
 

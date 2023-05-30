@@ -7,7 +7,7 @@ importance: 1
 category: formation
 ---
 
-## A nuclear and radiation accident
+## Origin of a nuclear accident
 
 This project was to identify the origin of a nuclear accident based on data collected by sensor. For this task, we had to implement a gaz simulation and an optimization scheme from scratch.
 
@@ -35,16 +35,15 @@ I choose a simple brute-force strategy where I throw random guesses in a region 
                 </div>
             </div>
 
-            Fitting of 3 different sensors based on the best guesses that I found and a vizualization of my optimization step through each sub-region.
+            Fitting of 3 different data recolted throught 3 sensors based on the best parameters found in my optimization (right) and a vizualization of my optimization step through each sub-region. (left)
         </center>
 
 </div>
 
 
+## nu-Bootis Orbital Parametrization
 
-## Genetic Algorithms
-
-The goal of this project was to improve the convergence of our genetic algorithms to find the best parameters that fit observed data given our kepler formulation.
+The goal of this project was to improve the convergence of our genetic algorithms to find the best parameters that fit observed data given kepler formula.
 
 My main strategy was not to discard the worst directly, but to keep some of them based on a gaussian distribution.
 
@@ -72,7 +71,6 @@ My main strategy was not to discard the worst directly, but to keep some of them
 
             Convergence discussion of every algorithm variation discussing the different variant benefice (Left) and Final Result of my optimization that converge to roughly the same solution (Right)
         </center>
-
 </div>
 
 ## Dark Matters
@@ -88,11 +86,11 @@ The aim of this project was to add to the simulation of a galaxy a contribution 
         </center>
 </div>
 
-## Detect Higgs Boson 
+## Higgs Boson Detection Simplified
 
-The last project was to create a binary classifier based on sanitaze data from CERN to identify if our particle was a Higgs Boson. I'm implemented a small framework for a simpler NN with a way to customize the number of layer which I got the **highest score** for our binary classifier. 
+The last project was to create a binary classifier based on sanitaze data from CERN to identify if our particle was a Higgs Boson. I'm implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
 
-I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function.
+I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function using a ratio of 75%/25% (training/test).
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
