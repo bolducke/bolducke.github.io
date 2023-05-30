@@ -7,8 +7,9 @@ importance: 1
 category: hobby
 ---
 
+<center>
 {% include figure.html path="assets/img/projects/oobc/game.png" title="In Renovation Home" class="img-fluid rounded z-depth-1 center" %}
-
+</center>
 
 [source_code](https://github.com/bolducke/OOBC)
 
