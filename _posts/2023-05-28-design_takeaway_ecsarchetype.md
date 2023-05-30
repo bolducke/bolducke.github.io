@@ -3,7 +3,7 @@ layout: post
 title: Design Takeaway | ECS-Like (Archetypes) - Overengineer/Overthink Breakout Clone
 date: 2023-05-28 11:59:00-0000
 description: A small breakdown of my architecture experimentation on my breakout clone
-categories: Odin SDL Languages
+categories: Architecture-Design SDL
 disqus_comments: false
 related_posts: false
 ---
