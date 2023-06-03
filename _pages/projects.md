@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 display_categories: [formation, hobby, freelance]
 enable_project_categories: true
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -21,7 +21,7 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row-12">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
