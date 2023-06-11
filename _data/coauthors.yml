@@ -1,3 +1,15 @@
-"me":
-  - firstname: ["Karl-Étienne Bolduc"]
+"Bolduc":
+  - firstname: ["Karl-Étienne","Karl-Étienne Bolduc"]
     url: https://bolducke.github.io
+
+"Sanscartier":
+  - firstname: ["Eugène", "Eugène Sanscartier"]
+    url: https://www.linkedin.com/in/eugene-sanscartier-a36b48114/?originalSubdomain=ca
+
+"Saint-Denis":
+  - firstname: ["Félix", "Félix Saint-Denis"]
+    url: https://www.linkedin.com/in/f%C3%A9lix-st-denis-253b721b6/
+
+"Mousseau":
+  - firstname: ["Normand", "Normand Mousseau"]
+    url: http://normandmousseau.com/

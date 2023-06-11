@@ -2,7 +2,7 @@
 layout: page
 title: 2D Physic Simulation
 description: Small Engine for 2D Simulation of Classical Mechanics.
-#img: assets/img/projects/websites/inrenovation_home.png
+img: assets/img/projects/physim2d/thumbnail.png
 importance: 1
 category: hobby
 ---
@@ -37,3 +37,5 @@ I used a bunch of online resource, but this was educational and I don't remember
 
 * [Ming-Lun "Allen" Chou Personal Website](https://allenchou.net/)
 * [Erin Catto Talk on Physics for Games](https://www.gdcvault.com/play/1020603/Physics-for-Game-Programmers-Understanding)
+
+PS: The thumbnail was taken from: [Wikimedia](https://en.wikipedia.org/wiki/File:Plane-Sphere_Intersection.svg)

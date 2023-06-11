@@ -1,8 +1,8 @@
 ---
 layout: page
 title: MTI882 - Path Tracing
-description: MTI 882 Path Tracing - Final Project
-img: assets/img/projects/mti882_path_tracer/final_composition.png
+description: MTI 882 Path Tracing - Final Project Showcase
+img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 1
 category: formation
 ---

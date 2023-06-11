@@ -2,7 +2,7 @@
 layout: page
 title: OOBC
 description: Overengineer/Overthink breakout clone
-img: assets/img/projects/oobc/game.png
+img: assets/img/projects/oobc/thumbnail.png
 importance: 1
 category: hobby
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: PHY3075 - Numerical Modelling
-description: PHY3075 - Showcase of the different projects
-img: assets/img/projects/phy3075_numerical_modelling/dark_matter.gif
+description: PHY3075 - Assignments Showcase
+img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
 category: formation
 ---

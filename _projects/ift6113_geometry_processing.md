@@ -1,8 +1,8 @@
 ---
 layout: page
 title: IFT6113 - Geometry Processing
-description: IFT6113 - Geometry Processing - Showcase
-img: assets/img/projects/ift6113_geometry_processing/eigendecomposition_bunny.png
+description: IFT6113 - Geometry Processing - Assignments Showcase
+img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 1
 category: formation
 ---

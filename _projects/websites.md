@@ -2,7 +2,7 @@
 layout: page
 title: Websites
 description: Websites Designs & Creations
-img: assets/img/projects/websites/inrenovation_home.png
+img: assets/img/projects/websites/thumbnail.png
 importance: 1
 category: freelance
 ---
