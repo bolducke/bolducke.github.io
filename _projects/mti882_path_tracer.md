@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MTI882 - Path Tracing
-description: MTI 882 Path Tracing - Final Project Showcase
+description: Path Tracing Final Project involving Spectral Volumetric MIS NES
 img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 1
 category: formation

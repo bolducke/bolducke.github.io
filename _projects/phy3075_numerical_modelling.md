@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PHY3075 - Numerical Modelling
-description: PHY3075 - Assignments Showcase
+description: Showcase of projects revolving around optimization, numerical simulation and more.
 img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
 category: formation
