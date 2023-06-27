@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MTI882 - Path Tracing
-description: Final project implementing Spectral Volumetric MIS NES
+description: Final project showcase implementing Spectral Volumetric Multiple Importance Sampling Non-Exponential Scheme (MIS NES)
 img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 1
 category: formation
