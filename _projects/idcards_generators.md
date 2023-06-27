@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IDCards Generators
-description: Small Script to generate IDCards and print them
+description: Small script to generate IDCards and print them.
 img: assets/img/projects/idcards_generators/thumbnail.png
 importance: 1
 category: freelance

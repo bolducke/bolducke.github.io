@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2D Physic Simulation
-description: Small Engine for 2D Simulation of Classical Mechanics.
+description: Small engine for 2D simulation of classical mechanics.
 img: assets/img/projects/physim2d/thumbnail.png
 importance: 1
 category: hobby

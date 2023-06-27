@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Websites
-description: Websites Designs & Creations
+description: Websites designs & creations
 img: assets/img/projects/websites/thumbnail.png
 importance: 1
 category: freelance

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IFT6113 - Geometry Processing
-description: Assigments Showcase involving Discrete Operator, Fairing and Deformation.
+description: Assignment Showcase featuring Discrete Operators, Fairing, and Deformations.
 img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 1
 category: formation
