@@ -2,9 +2,9 @@
 
 ## How to run
 
-'''bash
+```bash
 bundle exec jekyll serve --lsi
-'''
+```
 
 ## Credits
 
