@@ -7,6 +7,23 @@ importance: 1
 category: formation
 ---
 
+## Higgs Boson Detection Simplified
+
+The last project was to create a binary classifier based on sanitized data from CERN to identify if our particle was a Higgs Boson. I've implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
+
+I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function using a ratio of 75%/25% (training/test).
+
+<div class="row-sm mt-3 mt-md-0 pb-2">
+        <center>
+            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/higgs_score.png" title="Convergence based on the training/test dataset" class="img-fluid rounded z-depth-1" %}
+
+            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/higgs_binaryclassifier.png" title="Classifier results on the unknown dataset with a score of 82.5% accuracy" class="img-fluid rounded z-depth-1" %}
+
+            Convergence based on the training/test dataset and Classifier results on the unknown dataset with a score of 82.5% accuracy.
+        </center>
+</div>
+
+
 ## Origin of a nuclear accident
 
 This project was to identify the origin of a nuclear accident based on data collected by the sensor. For this task, we had to implement a gas simulation and an optimization scheme from scratch.
@@ -83,21 +100,5 @@ The aim of this project was to add to the simulation of a galaxy a contribution 
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/dark_matter.gif" title="Dark Matter Contribution to Galaxy Rotation" class="img-fluid rounded z-depth-1" %}
 
             The scale of the simulation is done over years. Each blue dot represents a star. Each isocontour in red represents the gravitational potential. 
-        </center>
-</div>
-
-## Higgs Boson Detection Simplified
-
-The last project was to create a binary classifier based on sanitized data from CERN to identify if our particle was a Higgs Boson. I've implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
-
-I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function using a ratio of 75%/25% (training/test).
-
-<div class="row-sm mt-3 mt-md-0 pb-2">
-        <center>
-            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/higgs_score.png" title="Convergence based on the training/test dataset" class="img-fluid rounded z-depth-1" %}
-
-            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/higgs_binaryclassifier.png" title="Classifier results on the unknown dataset with a score of 82.5% accuracy" class="img-fluid rounded z-depth-1" %}
-
-            Convergence based on the training/test dataset and Classifier results on the unknown dataset with a score of 82.5% accuracy.
         </center>
 </div>

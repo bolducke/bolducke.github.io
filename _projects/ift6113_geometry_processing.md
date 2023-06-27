@@ -1,15 +1,15 @@
 ---
 layout: page
 title: IFT6113 - Geometry Processing
-description: Assignment Showcase featuring Discrete Operators, Fairing, and Deformations.
+description: Assignment showcase featuring Discrete Operators, Fairing, and Deformations.
 img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 1
 category: formation
 ---
 
-At Udem, I had the chance to be part of the [course](http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2021/) by Mikkael Besselmet where it introduce us to geometry processing. We learn the math and the algorithms behind modern mesh processing and modeling.
+During my time at Udem, I had the opportunity to participate in a [course](http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2021/) led by Mikkael Besselmet that introduced us to geometry processing. The course covered the mathematical concepts and algorithms behind modern mesh processing and modeling.
 
-Here a small showcase of the algorithms that we implemented in our course.
+Here is a brief overview of some of the algorithms we implemented during the course.
 
 ### Eigen Decomposition
 

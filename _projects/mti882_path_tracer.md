@@ -1,15 +1,15 @@
 ---
 layout: page
 title: MTI882 - Path Tracing
-description: Final Project implementing Spectral Volumetric MIS NES
+description: Final project implementing Spectral Volumetric MIS NES
 img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 1
 category: formation
 ---
 
-At École des Technologies Supérieures (ETS), I had an amazing course on Path Tracing by Adrien Gruson. We got a really up-to-date overview of the current development and state-of-the-art algorithm in path tracing.
+At École des Technologies Supérieures (ETS), I had the opportunity to take an excellent course on Path Tracing by Adrien Gruson. The course provided an up-to-date overview of the current development and state-of-the-art algorithms in path tracing.
 
-For the final project, we were ask to implement new feature and compose a scene. We choose to do volumetric path tracing and implement a Spectral Volumetric Rendering for Heteregenous Media using NEE MIS based on [A null-scattering path integral formulation of light transport](https://dl.acm.org/doi/pdf/10.1145/3306346.3323025). The picture below showcase the feature that I implement with [Matthieu BEAUD](https://www.linkedin.com/in/matthieu-beaud/) for our project.
+For the final project, we were asked to implement new features and compose a scene. My team chose to implement volumetric path tracing and a spectral volumetric rendering for heterogeneous media using NEE MIS based on [A null-scattering path integral formulation of light transport](https://dl.acm.org/doi/pdf/10.1145/3306346.3323025). The picture below showcases the features that I implemented with [Matthieu Beuad](https://www.linkedin.com/in/matthieu-beaud/) for our project.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
     <center>
