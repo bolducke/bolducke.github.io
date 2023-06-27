@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PHY3075 - Numerical Modelling
-description: Assignment Showcase revolving around optimization, numerical simulation and more.
+description: Assignment showcases revolving around optimization, numerical simulation, and more.
 img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
 category: formation
@@ -9,7 +9,7 @@ category: formation
 
 ## Origin of a nuclear accident
 
-This project was to identify the origin of a nuclear accident based on data collected by sensor. For this task, we had to implement a gaz simulation and an optimization scheme from scratch.
+This project was to identify the origin of a nuclear accident based on data collected by the sensor. For this task, we had to implement a gas simulation and an optimization scheme from scratch.
 
 I choose a simple brute-force strategy where I throw random guesses in a region and recenter the next guess around the best one.
 
@@ -43,9 +43,9 @@ I choose a simple brute-force strategy where I throw random guesses in a region 
 
 ## nu-Bootis Orbital Parametrization
 
-The goal of this project was to improve the convergence of our genetic algorithms to find the best parameters that fit observed data given kepler formula.
+The goal of this project was to improve the convergence of our genetic algorithms to find the best parameters that fit observed data given Kepler formula.
 
-My main strategy was not to discard the worst directly, but to keep some of them based on a gaussian distribution.
+My main strategy was not to discard the worst directly but to keep some of them based on a Gaussian distribution.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
@@ -82,13 +82,13 @@ The aim of this project was to add to the simulation of a galaxy a contribution 
         <center>
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/dark_matter.gif" title="Dark Matter Contribution to Galaxy Rotation" class="img-fluid rounded z-depth-1" %}
 
-            The scale of the simulation is done through years. Each blue dot represent a star. Each isocontour in red represent the gravitionnal potential. 
+            The scale of the simulation is done over years. Each blue dot represents a star. Each isocontour in red represents the gravitational potential. 
         </center>
 </div>
 
 ## Higgs Boson Detection Simplified
 
-The last project was to create a binary classifier based on sanitaze data from CERN to identify if our particle was a Higgs Boson. I'm implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
+The last project was to create a binary classifier based on sanitized data from CERN to identify if our particle was a Higgs Boson. I've implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
 
 I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function using a ratio of 75%/25% (training/test).
 
