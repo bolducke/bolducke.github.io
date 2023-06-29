@@ -32,7 +32,7 @@ I made contact with a contractor who needed to rework his website. After we disc
 ### Overall Requirements
 * Look Modern & Professional
 * Custom Domain Name with a personalized email 
-* Can alter the gallery easily to upload new pictures to display
+* Can alter the gallery easily with new pictures
 
 ### Tools/Services Used
 * Vue 2
@@ -63,7 +63,7 @@ I made contact with a contractor who needed to rework his website. After we disc
     </div>
 </div>
 
-With great friends, I help organize small events where people would play together on different types of games from the evening through the morning. (This is why we named the event "Quart de Nuit" [Night Shift]) We did 3-4 events at a Gaming Cafe and were able to regroup 30 people. Then, we decided to go bigger and loan a room. We try to have a karaoke, a screen with the competition, local gaming stands to play together, some gaming board games, and a bar. We decided that we needed a website so that it would be simpler to be paid. Sadly, the pandemic happened and we had to cancel everything.
+Before the pandemic, I helped organize small events with great friends where people would play together on different types of games from the evening through the morning. We named the event “Quart de Nuit” [Night Shift]. We held 3-4 events at a Gaming Cafe and were able to regroup 30 people. Then, we decided to go bigger and loan a room. We tried to have a karaoke, a screen with the competition, local gaming stands to play together, some gaming board games, and a bar. We decided that we needed a website so that it would be simpler to be paid. Unfortunately, the pandemic happened and we had to cancel everything.
 
 I was responsible for the overall backend/frontend communication with the API.
 
