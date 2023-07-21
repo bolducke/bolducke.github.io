@@ -4,7 +4,7 @@ title: IFT6113 - Geometry Processing
 description: Assignment showcase featuring Discrete Operators, Fairing, and Deformations.
 img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 3
-category: formation
+category: formal education
 ---
 
 During my time at Udem, I had the opportunity to participate in a [course](http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2021/) led by Mikkael Besselmet that introduced us to geometry processing. The course covered the mathematical concepts and algorithms behind modern mesh processing and modeling.

@@ -4,7 +4,7 @@ title: PHY3075 - Numerical Modelling
 description: Assignment showcases revolving around optimization, numerical simulation, and more.
 img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
-category: formation
+category: formal education
 ---
 
 ## Higgs Boson Detection Simplified

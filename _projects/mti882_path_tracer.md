@@ -4,7 +4,7 @@ title: MTI882 - Path Tracing
 description: Final project showcase implementing Spectral Volumetric Multiple Importance Sampling Non-Exponential Scheme (MIS NES)
 img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 2
-category: formation
+category: formal education
 ---
 
 At École des Technologies Supérieures (ETS), I had the opportunity to take an excellent course on Path Tracing by Adrien Gruson. The course provided an up-to-date overview of the current development and state-of-the-art algorithms in path tracing.
