@@ -7,8 +7,9 @@ importance: 1
 category: hobby
 ---
 
-To learn Vulkan (a second time), I followed a recommendation about this [resource](https://nvpro-samples.github.io/vk_mini_path_tracer/index.html) online to better understand how vulkan is working behind the scene. 
+[source code](https://github.com/bolducke/vk_volumetric_path_tracer)
 
+I decided to give Vulkan another shot, so I stumbled upon this awesome recommendation online. It led me to this cool [resource](https://nvpro-samples.github.io/vk_mini_path_tracer/index.html), which gives an overview behind Vulkan. It's a really great resource that I warmly recommend for beginners and path tracing enthusiast.
 
 ## Briefly
 * Loaded custom extensions like **VK_KHR_ray_query** and **VK_KHR_acceleration_structure**
@@ -35,42 +36,37 @@ With 2056 samples and a depth of 32, I was able to render the volumetric path tr
 <center>
     <div class="row">
             <div class="col-12">
+                <div class="row">
+
+                <div class="col-6">
                 <center>
 
                     {% include figure.html path="assets/img/projects/vukan_volumetric_path_tracer/path_tracing.jpg" title="Path Tracing on GPU" class="img-fluid rounded z-depth-1" %}
 
-                    Path Tracing using differents materials.
-
                 </center>
             </div>
 
-            <div class="col-12">
-                <div class="row">
-
-                    <div class="col-12">
+                    <div class="col-6">
                         <center>
 
                             {% include figure.html path="assets/img/projects/vukan_volumetric_path_tracer/volumetric_green.png" title="Volumetric" class="img-fluid rounded z-depth-1" %}
                             
-                            Volumetric Path Tracing using Free-Flight Sampling.
                         </center>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-6">
                         <center>
 
                             {% include figure.html path="assets/img/projects/vukan_volumetric_path_tracer/volumetric_yellow.png" title="Volumetric" class="img-fluid rounded z-depth-1" %}
                             
-                            Volumetric Path Tracing using Free-Flight Sampling.
                         </center>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-6">
                         <center>
 
                             {% include figure.html path="assets/img/projects/vukan_volumetric_path_tracer/volumetric_blue.png" title="Volumetric" class="img-fluid rounded z-depth-1" %}
                             
-                            Volumetric Path Tracing using Free-Flight Sampling.
                         </center>
                     </div>
                 </div>
