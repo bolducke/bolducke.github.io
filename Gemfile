@@ -18,6 +18,7 @@ group :jekyll_plugins do
     gem 'webrick'
 
     gem "jekyll-pdf-embed"
+    gem 'jekyll-gist'
 end
 
 group :other_plugins do
