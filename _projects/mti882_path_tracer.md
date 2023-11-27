@@ -7,7 +7,7 @@ importance: 2
 category: formal education
 ---
 
-At École des Technologies Supérieures (ETS), I had the opportunity to take an excellent course on Path Tracing by Adrien Gruson. The course provided an up-to-date overview of the current development and state-of-the-art algorithms in path tracing.
+At École des Technologies Supérieures (ETS), I had the opportunity to take an excellent course on Path Tracing by Adrien Gruson. The course provided an up-to-date overview of the current development and state-of-the-art algorithms in path tracing. The result (in french) of the competition are available here at [ÉTS - Rendering Competition 2022](https://profs.etsmtl.ca/agruson/competition/2022/)
 
 For the final project, we were asked to implement new features and compose a scene. My team chose to implement volumetric path tracing and a spectral volumetric rendering for heterogeneous media using NEE MIS based on [A null-scattering path integral formulation of light transport](https://dl.acm.org/doi/pdf/10.1145/3306346.3323025). The picture below showcases the features that I implemented with [Matthieu Beuad](https://www.linkedin.com/in/matthieu-beaud/) for our project.
 
