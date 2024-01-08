@@ -13,11 +13,13 @@ I wanted to understand a little bit more computer fundaments. Because a lot of r
 
 ## Description
 
-The project relied on the specifications outlined in the Wikipedia article, which encompassed a subset of instructions derived from the Schip for Chip-8.
+This project was constructed based on specifications from the Wikipedia article on Chip-8, particularly focusing on a subset of instructions from the Schip extension.
 
-* From Scratch.
-* Implementation is done with OpenGL 4.6 (Glad) + ImGui + SDL2.
-* Dynamic UI to visualize the inner state of the emulator.
+Key aspects of the project include:
+
+* Developed entirely from scratch.
+* Implemented using OpenGL 4.6 (Glad), coupled with ImGui and SDL2 for a powerful and efficient setup.
+* Features a dynamic user interface designed to visualize the emulator's internal state, enhancing user interaction and experience.
 
 ## Results
 
