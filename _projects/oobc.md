@@ -19,8 +19,6 @@ As a hobby and with a desire to learn and explore programming design, I develope
 
 My goal was to create a flexible product that is easy to refactor and add features to while not compromising too much on performance by using a cache-friendly approach. However, because I was more interested in modularity, I didn’t focus much on performance. I deliberately avoided OOP to explore alternative modes of thought.
 
-You can see a breakdown of the design at [blog](https://bolducke.github.io/blog/2023/design_takeaway_ecsarchetype/).
-
 ## Description
 
 * ECS-like Architecture without any framework
