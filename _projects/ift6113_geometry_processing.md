@@ -1,17 +1,15 @@
 ---
 layout: page
 title: IFT6113 - Geometry Processing
-description: Assignment showcase featuring Discrete Operators, Fairing, and Deformations.
+description: Assignments of IFT-6113 at UdeM
 img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 3
-category: formal education
+category: education
 ---
 
-During my time at Udem, I had the opportunity to participate in a [course](http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2021/) led by Mikkael Besselmet that introduced us to geometry processing. The course covered the mathematical concepts and algorithms behind modern mesh processing and modeling.
+Showcase of assignments done in [course](http://www-labs.iro.umontreal.ca/~bmpix/teaching/6113/2021/) led by Mikkael Besselmet. The course covered the mathematical concepts and algorithms behind modern mesh processing and modeling.
 
-Here is a brief overview of some of the algorithms we implemented during the course.
-
-### Eigen Decomposition
+# Eigen Decomposition
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <div class="row-sm mt-3 mt-md-0 pb-2">
@@ -34,12 +32,12 @@ Here is a brief overview of some of the algorithms we implemented during the cou
 
     <center>
         <div>
-            Three lowest eigenvectors being displayed for different meshes
+            Three lowest eigenvectors being displayed for different meshes.
         </div>
     </center>
 </div>
 
-### Deformation
+# Shape Deformation
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
@@ -48,7 +46,7 @@ Here is a brief overview of some of the algorithms we implemented during the cou
 
     <center>
             <div>
-                Mesh deformation based on the red handle using a custom implementation of ARAP.
+                Mesh deformation based on the red handle using an implementation of ARAP.
             </div>
     </center>
 </div>
@@ -60,12 +58,12 @@ Here is a brief overview of some of the algorithms we implemented during the cou
 
     <center>
         <div>
-            Mesh deformation of a Bar using Biharmonic (On the right) and ARAP (On the Left)
+            Mesh deformation of a bar using biharmonic (Right) and ARAP (Left).
         </div>
     </center>
 </div>
 
-### Solving Heat Equation on Manifold
+# Solving Heat Equation on Manifold
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
@@ -73,13 +71,13 @@ Here is a brief overview of some of the algorithms we implemented during the cou
     </center>
     <center>
         <div>
-            Random initiliaziation of heat. Then, vizualisation of different step through the heat propagation on the manifold.
+            Random initiliaziation of heat. Then, vizualisation of different step through the propagation of heat on the manifold.
         </div>
     </center>
 </div>
 
 
-### Fairing
+# Shape Fairing
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>

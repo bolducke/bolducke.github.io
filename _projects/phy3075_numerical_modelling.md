@@ -1,17 +1,30 @@
 ---
 layout: page
 title: PHY3075 - Numerical Modelling
-description: Assignment showcases revolving around optimization, numerical simulation, and more.
+description: Assignments of PHY-3075 at UdeM.
 img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
-category: formal education
+category: education
 ---
 
-## Higgs Boson Detection Simplified
+Showcase of different assignment projects done through my undergraduate study.
 
-The last project was to create a binary classifier based on sanitized data from CERN to identify if our particle was a Higgs Boson. I've implemented a small framework for a simpler NN with a way to customize the number of layers which I got the **highest score** for our binary classifier. 
+# Higgs Boson Detection Simplified
 
-I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation function using a ratio of 75%/25% (training/test).
+## Motivation
+
+Identify the Higgs boson from sanitized data provided by CERN using a binary classifier
+
+## Description
+
+* Build a lightweight framework to adapt the number of layers and nodes of a neural network
+
+## Results
+
+* Obtain the **highest score**
+* 5 layers with 13, 10, 8, 6 and 1 nodes
+* Activation sigmoid function between every layer 
+* 75% training and 25% test set of the original data set
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
@@ -19,22 +32,35 @@ I ended up with a NN with a layer of 13-10-8-6-1 with a sigmoid activation funct
 
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/higgs_binaryclassifier.png" title="Classifier results on the unknown dataset with a score of 82.5% accuracy" class="img-fluid rounded z-depth-1" %}
 
-            Convergence based on the training/test dataset and Classifier results on the unknown dataset with a score of 82.5% accuracy.
+            Convergence based on the training/test dataset (Top). Classifier results on the unknown dataset with a score of 82.5% accuracy (Bottom).
         </center>
 </div>
 
+# Origin of a Nuclear Accident
 
-## Origin of a nuclear accident
+## Motivation
 
-This project was to identify the origin of a nuclear accident based on data collected by the sensor. For this task, we had to implement a gas simulation and an optimization scheme from scratch.
+Identify the origin of a nuclear accident from gaz propagation 
 
-I choose a simple brute-force strategy where I throw random guesses in a region and recenter the next guess around the best one.
+## Description
+
+* Implement a simple fluid simulation
+* Build an optimization scheme
+
+## Results
+
+0. A domain is chosen as the region to be explored
+1. Guess randomly in the region to be explored
+2. Recenter around the best guess and reduce the domain by a factor
+3. Stop when after a few iterations
+
+In itself, it is a naive algorithm. However, instead of using Python, the assignment was reimplemented in Julia in parallel which makes this naive approach feasible.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
-            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/radioactive_simcompar.png" title="A radioactive simulation compare to the one of reference in our textbook." class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/radioactive_sim.png" title="A radioactive simulation compare to the one of reference in our textbook." class="img-fluid rounded z-depth-1" %}
 
-            A radioactive simulation compare to the one of reference in our textbook.
+            A radioactive simulation.
         </center>
         
         
@@ -52,23 +78,30 @@ I choose a simple brute-force strategy where I throw random guesses in a region 
                 </div>
             </div>
 
-            Fitting of 3 different data recolted throught 3 sensors based on the best parameters found in my optimization (right) and a vizualization of my optimization step through each sub-region. (left)
+            3 different data were collected through 3 sensors based on the best parameters found through my optimization (right). A visualization of every optimization step through each sub-region (left). 
         </center>
 
 </div>
 
+# nu-Bootis Orbital Parametrization
 
-## nu-Bootis Orbital Parametrization
+## Motivation
 
-The goal of this project was to improve the convergence of our genetic algorithms to find the best parameters that fit observed data given Kepler formula.
+Improve convergence of a genetic algorithm to find the best parameters of the Kepler formula to fit observed data.
 
-My main strategy was not to discard the worst directly but to keep some of them based on a Gaussian distribution.
+## Description
+
+* Implement a custom strategy for a genetic algorithm
+
+## Results
+
+Each generation is ranked through a heuristic. A portion of the generation is kept by sampling a Gaussian distribution.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/geneticalgo_opti.gif" title="Genetic Algorithm in 2D" class="img-fluid rounded z-depth-1" %}
 
-            A standard genetic algorithm to find the minima of a 2D sinc function.
+            Classical genetic algorithm to find the minima of a 2D sinc function.
         </center>
         
         
@@ -86,19 +119,27 @@ My main strategy was not to discard the worst directly but to keep some of them 
                 </div>
             </div>
 
-            Convergence discussion of every algorithm variation discussing the different variant benefice (Left) and Final Result of my optimization that converge to roughly the same solution (Right)
+            Optimization score across each iteration, comparing different optimization strategies (Left). Convergence of optimization, consistent with the Kepler formula, based on artificially sampled points. (Right).
         </center>
 </div>
 
-## Dark Matters
+# Dark Matters
 
-The aim of this project was to add to the simulation of a galaxy a contribution to the gravitational potential coming from a halo of dark matter extending on the outskirts of the galaxy, sufficiently dense to “straighten” the rotation curve as expected.
+## Motivation
 
+Enhance galaxy simulation by incorporating a dark matter halo to match experimental observation of gravitational potential.
+
+## Description
+
+* Implement a small N-Body simulation
+* Estimate the gravitational potential of a simulated galaxy
+
+## Results
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/dark_matter.gif" title="Dark Matter Contribution to Galaxy Rotation" class="img-fluid rounded z-depth-1" %}
-
-            The scale of the simulation is done over years. Each blue dot represents a star. Each isocontour in red represents the gravitational potential. 
+            
+            Dark matter contribution to galaxy rotation. Each blue dot represents a star. Each line in red is an isocontour of the gravitational potential.
         </center>
 </div>

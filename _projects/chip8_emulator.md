@@ -7,23 +7,19 @@ importance: 2
 category: hobby
 ---
 
-[Source Code](https://github.com/bolducke/chip8_emulator/)
-
 ## Motivation
 
-* Educative Purpose (Avoided resource outside of the one described below)
-* Familiarize myself with basic computer fundamentals
-* Generate nice looking gif
+I wanted to understand a little bit more computer fundaments. Because a lot of resource are available online, I voluntarily avoided using external resources. 
 
 ## Description
 
 The project relied on the specifications outlined in the Wikipedia article, which encompassed a subset of instructions derived from the Schip for Chip-8.
 
 * From Scratch.
-* Implementation is done using OpenGL 4.6 (Glad) + ImGui + SDL2.
-* Dynamic UI to visualize the inner state of my emulator.
+* Implementation is done with OpenGL 4.6 (Glad) + ImGui + SDL2.
+* Dynamic UI to visualize the inner state of the emulator.
 
-## Gallery
+## Results
 
 <center>
     <div class="row">
@@ -66,7 +62,9 @@ The project relied on the specifications outlined in the Wikipedia article, whic
     </div>
 </center>
 
-## Resource
+## Credits/Resources
+
+[source](https://github.com/bolducke/chip8_emulator/)
 
 [Wikipedia - CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
 

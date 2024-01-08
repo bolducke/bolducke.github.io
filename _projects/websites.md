@@ -7,11 +7,9 @@ importance: 1
 category: freelance
 ---
 
-In the summer of 2020, while I was a second-year student at university, I wanted to experiment web technologies because I didn't have the chance to explore them before. I throw myself at the most common framework such as laravel, django, vuejs and firebase. Over 2020, I produce two websites.
+In the summer of 2020, while I was a second-year student at university, I wanted to experiment web technologies because I didn't have the chance to explore them before. I threw myself at the most common framework such as laravel, django, vuejs and firebase. Over the summer, I produce two websites: one for a contractor and one for a group event between friends. 
 
-## [In Renovation I.N inc](https://inrenovation.com/) (Summer 2020)
-
-[source code](https://github.com/bolducke/website_inrenovationinc)
+# [In Renovation I.N inc](https://inrenovation.com/) (Summer 2020)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -25,31 +23,36 @@ In the summer of 2020, while I was a second-year student at university, I wanted
     </div>
 </div>
 
-### Motivation
+## Motivation
 
-I made contact with a contractor who needed to rework his website. After we discuss the requirements, I rapidly started to use the tool that I learned over the summer. I was responsible for the overall conception.
+I connected with a contractor in need of a website overhaul. After discussing his requirements, I quickly put to use the tools I had mastered over the summer 2020. I was tasked with the overall creation of the website.
+
+## Description
 
 ### Overall Requirements
 * Look Modern & Professional
 * Custom Domain Name with a personalized email 
 * Can alter the gallery easily with new pictures
 
+### Major Designs Decision
+
+0. Customize Vuetify 2 components for a unique UI.
+0. Segment page into separate components for easier maintenance.
+0. Enable direct client uploads and edits of images in Firebase.
+0. Develop a script for image resizing and thumbnail creation.
+0. Use Namecheap for domain and custom email to enhance professionalism.
+
 ### Tools/Services Used
 * Vue 2
 * Vuetify 2
 * Firebase
-* NameCheap Domain Name + Personalize Email Account with Domain Name
+* NameCheap
 
-### Major Designs Decision
+## Credits/Resources
 
-1. I customized most of the components of Vuetify 2 to give them a personalized look.
-2. I separated each section on the page into its own components to reduce repetition and make it simpler to maintain.
-3. I enabled the client to access Firebase storage directly to upload their own picture and make amendments if needed. To reduce bandwidth, I also created a small script to reduce the picture size uploaded and to create thumbnails.
-4. I chose Namecheap for the domain name and for the service letting me personalize the email with a custom domain name. This makes the website look more professional. Then, I redirected every message to their own personal email account.
+[source](https://github.com/bolducke/website_inrenovationinc)
 
-## Lan "Quart de Nuit" [Draft] (Spring 2020)
-
-[source code](https://github.com/lan-pascal)
+# Lan "Quart de Nuit" [Draft] (Spring 2020)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -63,15 +66,25 @@ I made contact with a contractor who needed to rework his website. After we disc
     </div>
 </div>
 
-Before the pandemic, I helped organize small events with great friends where people would play together on different types of games from the evening through the morning. We named the event “Quart de Nuit” [Night Shift]. We held 3-4 events at a Gaming Cafe and were able to regroup 30 people. Then, we decided to go bigger and loan a room. We tried to have a karaoke, a screen with the competition, local gaming stands to play together, some gaming board games, and a bar. We decided that we needed a website so that it would be simpler to be paid. Unfortunately, the pandemic happened and we had to cancel everything.
+## Motivation
 
-I was responsible for the overall backend/frontend communication with the API.
+Before the COVID-19 pandemic, I help organizing 'Quart de Nuit' [Night Shift], a series of small-scale gaming events, with a group of friends. We initially hosted these at a Gaming Cafe, regularly attracting 30 participants. As the event grew, we expanded by renting a larger venue and diversifying activities to include karaoke, live gaming competitions, local gaming booths, board games, and a bar.
+
+To streamline event management and payments, we decided to develop a custom website. My role involved developping the backend and frontend. However, the pandemic mades our plan impossible and we cancel out the event.
+
+## Description
 
 ### Overall Requirements
 * Countdown
-* Login Account
+* User Account
 * Ticketing
-* Interesting Looking Website
+* Good Looking Website
+
+### Major Designs Decision
+
+0. Opt for Stripe over PayPal due to its ease of integration and its lower transaction fees.
+0. Manage user login and administration using the Laravel framework.
+0. Develop the interface using Vue and Vuetify.
 
 ### Tools/Services Used
 * Vue 2
@@ -80,8 +93,6 @@ I was responsible for the overall backend/frontend communication with the API.
 * Stripe
 * NameCheap Domain Name
 
-### Major Designs Decision
+## Credits/Resources
 
-1. Stripe was a great platform to integrate with our service to let users pay for the ticket. We wanted to reduce as much as fee as possible and stripe was a great option in that regard.
-2. Laravel was meant to be the backend to handle the login and processing to let users pay in security.
-3. Vue & Vuetify was meant to be used as the foundation for the website for ease to learn.
+[source](https://github.com/lan-pascal)
