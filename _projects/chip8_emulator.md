@@ -9,7 +9,7 @@ category: hobby
 
 ## Motivation
 
-I wanted to understand a little bit more computer fundaments. Because a lot of resource are available online, I voluntarily avoided using external resources. 
+I wanted to understand a little bit more about computer fundamentals. Thus, I look for resource available online. I voluntarily avoided using resources with solution.
 
 ## Description
 
@@ -18,8 +18,8 @@ This project was constructed based on specifications from the Wikipedia article 
 Key aspects of the project include:
 
 * Developed entirely from scratch.
-* Implemented using OpenGL 4.6 (Glad), coupled with ImGui and SDL2 for a powerful and efficient setup.
-* Features a dynamic user interface designed to visualize the emulator's internal state, enhancing user interaction and experience.
+* Features a user interface designed to visualize the emulator's internal state.
+* Implemented using OpenGL 4.6 (Glad), coupled with ImGui and SDL2.
 
 ## Results
 
