@@ -40,7 +40,7 @@ Odin is more modern than C and C++ and takes advantage of modern features. The b
 
 ## Debugging
 
-Debugging can be done with `lldb`, but it is limited to the terminal. In the current text, the debugger can be buggy.
+Debugging can be done with `lldb`, but it is limited to the terminal. At the moment of writing this text, the debugger is buggy and the feature are limited.
 
 ## Assertion, Error Handling
 

@@ -20,8 +20,7 @@ Identify the Higgs boson from sanitized data provided by CERN using a binary cla
 * Build a lightweight framework to adapt the number of layers and nodes of a neural network
 
 ## Results
-
-* Obtain the **highest score**
+* Highest score in the class of 2020
 * 5 layers with 13, 10, 8, 6 and 1 nodes
 * Activation sigmoid function between every layer 
 * 75% training and 25% test set of the original data set
@@ -40,7 +39,7 @@ Identify the Higgs boson from sanitized data provided by CERN using a binary cla
 
 ## Motivation
 
-Identify the origin of a nuclear accident from gaz propagation 
+Identify the origin of a nuclear accident from gas propagation through a simplified setting.
 
 ## Description
 
@@ -60,7 +59,7 @@ In itself, it is a naive algorithm. However, instead of using Python, the assign
         <center>
             {% include figure.html path="assets/img/projects/phy3075_numerical_modelling/radioactive_sim.png" title="A radioactive simulation compare to the one of reference in our textbook." class="img-fluid rounded z-depth-1" %}
 
-            A radioactive simulation.
+            A simple gas simulation.
         </center>
         
         
