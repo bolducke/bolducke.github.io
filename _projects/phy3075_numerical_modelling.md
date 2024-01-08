@@ -20,10 +20,8 @@ Identify the Higgs boson from sanitized data provided by CERN using a binary cla
 * Build a lightweight framework to adapt the number of layers and nodes of a neural network
 
 ## Results
-* Highest score in the class of 2020
-* 5 layers with 13, 10, 8, 6 and 1 nodes
-* Activation sigmoid function between every layer 
-* 75% training and 25% test set of the original data set
+
+**Obtained the highest score**
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
@@ -47,13 +45,6 @@ Identify the origin of a nuclear accident from gas propagation through a simplif
 * Build an optimization scheme
 
 ## Results
-
-0. A domain is chosen as the region to be explored
-1. Guess randomly in the region to be explored
-2. Recenter around the best guess and reduce the domain by a factor
-3. Stop when after a few iterations
-
-In itself, it is a naive algorithm. However, instead of using Python, the assignment was reimplemented in Julia in parallel which makes this naive approach feasible.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>
@@ -93,8 +84,6 @@ Improve convergence of a genetic algorithm to find the best parameters of the Ke
 * Implement a custom strategy for a genetic algorithm
 
 ## Results
-
-Each generation is ranked through a heuristic. A portion of the generation is kept by sampling a Gaussian distribution.
 
 <div class="row-sm mt-3 mt-md-0 pb-2">
         <center>

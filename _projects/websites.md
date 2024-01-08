@@ -9,7 +9,7 @@ category: freelance
 
 In the summer of 2020, while I was a second-year student at university, I wanted to experiment web technologies because I didn't have the chance to explore them before. I threw myself at the most common framework such as laravel, django, vuejs and firebase. Over the summer, I produce two websites: one for a contractor and one for a group event between friends. 
 
-# [In Renovation I.N inc](https://inrenovation.com/) (Summer 2020)
+# [In Renovation I.N. inc.](https://inrenovation.com/) (Summer 2020)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -52,7 +52,7 @@ I connected with a contractor in need of a website overhaul. After discussing hi
 
 [source](https://github.com/bolducke/website_inrenovationinc)
 
-# Lan "Quart de Nuit" [Draft] (Spring 2020)
+# Lan "Quart de Nuit" (Spring 2020)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
