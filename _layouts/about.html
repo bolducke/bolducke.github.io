@@ -13,32 +13,60 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+          <div class="row">
+            <div class="col-md-4 profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+              
+              <div class="row justify-content-center">
+              {%- if page.profile.image %}
+                {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+                {% if page.profile.image_circular %}
+                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                {% else %}
+                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
+                {% include figure.html 
+                path=profile_image_path 
+                class=profile_image_class
+                alt=page.profile.image -%}
+              {% endif -%}
+              {%- if page.profile.address %}
+              <div class="address">
+                {{ page.profile.address }}
+              </div>
+              {%- endif %}
+            </div>
+              <div class="row justify-content-center">
+              {%- if page.social %}
+              <!-- Social -->
+              <div class="social">
+                <!-- <div class="contact-icons">
+                  {% include social_icons.html %}
+                </div> -->
+    
+                <div class="contact-texts">
+                  {% include social_text.html %}
+                </div>
+    
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+                
+              </div>
+              {%- endif %}
+            </div>
             </div>
             {%- endif %}
-          </div>
-          {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
+            <hr class="col-sm-12 d-flex d-md-none            ">
+
+            <div class="col">
+              {{ content }}
+            </div>
+
           </div>
+
 
           {% if page.news -%}
           <!-- News -->
@@ -47,23 +75,6 @@ layout: default
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <!-- <div class="contact-icons">
-              {% include social_icons.html %}
-            </div> -->
-
-            <div class="contact-texts">
-              {% include social_text.html %}
-            </div>
-
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
           {%- endif %}
         </article>
 
