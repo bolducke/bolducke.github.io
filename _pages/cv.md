@@ -2,8 +2,8 @@
 layout: default
 permalink: /cv/
 title: cv
-nav: false
+nav: true
 nav_order: 4
 ---
 
-{% pdf "/assets/pdf/CV.pdf" width=100% height=90vh %}
+{% pdf "/assets/cv/cv_10-01-2024.pdf" width=100% height=90vh %}
