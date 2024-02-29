@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ARMv8 Assembly - Baby Step
+title: Mini Programs in ARMv8 Assembly
 description: Collections of simple program in ARMv8 assembly
-img: assets/projects/ARMv8Assembly/thumbnail.png
+img: assets/projects/armv8_assembly_baby_steps/thumbnail.png
 importance: 2
 category: hobby
 ---
