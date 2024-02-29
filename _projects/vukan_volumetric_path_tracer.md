@@ -83,3 +83,5 @@ With 2056 samples and a maximum bounce rate of 32, I render the images in the ga
 ## Credits/Resources
 
 [source](https://github.com/bolducke/vk_volumetric_path_tracer)
+
+[vk_mini_path_tracer](https://nvpro-samples.github.io/vk_mini_path_tracer/index.html)
