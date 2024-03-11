@@ -28,7 +28,7 @@ This project is a collection of small programs in ARMv8:
                 <div class="col-12">
                 <center>
 
-                    {% include video.html path="assets/projects/armv8_assembly_baby_steps/hangman.webm" title="Hangman" loop=1 autoplay=1 class="embed-responsive z-depth-1" %}
+                    {% include video.html path="assets/projects/armv8_assembly_baby_steps/hangman.webm" title="Hangman" loop=1 autoplay=1 muted=1 class="embed-responsive z-depth-1" %}
 
                 </center>
                 </div>
