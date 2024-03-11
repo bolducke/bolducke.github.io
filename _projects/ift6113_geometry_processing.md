@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IFT6113 - Geometry Processing
+title: Geometry Processing
 description: Assignments of IFT-6113 at UdeM
 img: assets/img/projects/ift6113_geometry_processing/thumbnail.png
 importance: 3

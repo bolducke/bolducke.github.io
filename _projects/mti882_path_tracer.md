@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MTI882 - Path Tracing
+title: Path Tracing
 description: Final assignment of MTI-882 at ÉTS.
 img: assets/img/projects/mti882_path_tracer/thumbnail.png
 importance: 2
