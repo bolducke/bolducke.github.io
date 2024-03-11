@@ -18,7 +18,7 @@ This project was constructed based on specifications from the Wikipedia article 
 Key aspects of the project include:
 
 * Developed entirely from scratch.
-* Features a user interface designed to visualize the emulator's internal state.
+* Designed a user interface to vizualize emulator's internal states
 * Implemented using OpenGL 4.6 (Glad), coupled with ImGui and SDL2.
 
 ## Results

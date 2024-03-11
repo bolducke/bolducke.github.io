@@ -15,7 +15,7 @@ category: hobby
 
 ## Motivation
 
-As a hobby and with a desire to learn and explore programming design, I developed a small Breakout game using Odin (C-like Language) and SDL in my free time. I intentionally over-engineered the project to more easily detect the pain points of my design.
+As a hobby and with a desire to learn and explore programming design, I developed a small Breakout game using Odin (C-like Language) and SDL in my free time. I intentionally over-engineered the project to more easily detect flaws in my design.
 
 My goal was to create a flexible product that is easy to refactor and add features to while not compromising too much on performance by using a cache-friendly approach. However, because I was more interested in modularity, I didn’t focus much on performance. I deliberately avoided OOP to explore alternative modes of thought.
 
