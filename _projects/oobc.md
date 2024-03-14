@@ -1,13 +1,11 @@
 ---
 layout: page
 title: OOBC
-description: Overengineer/Overthink breakout clone
+description: Overengineered breakout game
 img: assets/img/projects/oobc/thumbnail.png
 importance: 2
 category: hobby
 ---
-
-# Overengineer/Overthink Breakout Clone
 
 <center>
 {% include figure.html path="assets/img/projects/oobc/game.png" title="In Renovation Home" class="img-fluid rounded z-depth-1 center" %}
