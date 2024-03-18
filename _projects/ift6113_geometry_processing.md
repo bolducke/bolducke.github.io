@@ -39,6 +39,8 @@ Showcase of assignments done in [course](http://www-labs.iro.umontreal.ca/~bmpix
 
 # Shape Deformation
 
+Implemented ["Bounded biharmonic weights for real-time deformation"](https://igl.ethz.ch/projects/bbw/bounded-biharmonic-weights-siggraph-2011-compressed-jacobson-et-al.pdf) and ["As-Rigid-As-Possible Surface Modeling"](https://igl.ethz.ch/projects/ARAP/arap_web.pdf).
+
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
         {% include figure.html path="assets/img/projects/ift6113_geometry_processing/arap_armadillo.png" title="ARAP Armadillo" class="img-fluid rounded z-depth-1" %}
@@ -64,6 +66,8 @@ Showcase of assignments done in [course](http://www-labs.iro.umontreal.ca/~bmpix
 </div>
 
 # Solving Heat Equation on Manifold
+
+ImplementedS ["The Heat Method for distance computation"](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/).
 
 <div class="col-sm mt-3 mt-md-0 pb-2">
     <center>
