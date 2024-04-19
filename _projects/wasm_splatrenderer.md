@@ -12,15 +12,15 @@ category: hobby
 
 The recent publication of '3D Gaussian Splatting for Real-Time Radiated Field Rendering' has led to the introduction of Gaussian splatting as an intriguing alternative to neural field due to its practicality to reconstruct 3D scene.
 
-Based on recent interest in the method, I was curious to learn more about how they can render scene effectively. In the end, I came up with a simple OpenGL program to visualize 3D Gaussian.
+Based on recent development, I wanted to learn more on how to render them into a screen. In the end, I came up with a simple OpenGL program to visualize 3D Gaussian.
 
 ## Description
 
 This project is based on articles available onlines and papers mentioned in the resource section. The renderer is implemented using a splatting technique inspired from "EWA Splatting". 
 
-A 3D scene is given to the program as a set of Gaussian that are encoded similarly to the original paper. Then, an image is produced by accumulating them onto a screen using alpha blending. To produce a realistic image, gaussian are, then, sorted relative to the "z" axis of the camera. Each gaussian position and covariance are transformed in the NDC space. 
+A 3D scene is given to the program as a set of Gaussian that are encoded similarly to the original paper. Then, an image is produced by accumulating them onto a screen using alpha blending. To produce a realistic image, gaussian are, then, sorted relative to the _z_ axis of the camera. Each gaussian position and covariance are transformed into the NDC space to be rasterize. 
 
-To make it run faster, a small bounding-box is render around the gaussian splat to reduce the number of call in the fragment shader. 
+To make it run faster, a small bounding-box is computed for each gaussian represented the effective area used in the rendering process. Then, the fragment shader is called only in that region. This small optimization improve drastically performances.
 
 * Support original `.ply` format to load a scene.
 * Extend "EWA Splatting" for any projective transformation.
