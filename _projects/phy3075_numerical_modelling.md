@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Numerical Modelling
-description: Assignments of PHY-3075 at UdeM.
+description: Assignments of PHY-3075 at UdeM
 img: assets/img/projects/phy3075_numerical_modelling/thumbnail.gif
 importance: 1
 category: education

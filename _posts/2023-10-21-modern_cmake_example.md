@@ -2,7 +2,7 @@
 layout: post
 title: Modern CMake Example
 date: 2023-10-21 11:59:00-0000
-description: An example for my futur self
+description: An example for my future self
 categories: CMake
 disqus_comments: false
 related_posts: false

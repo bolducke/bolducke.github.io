@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GPU Path Tracing
-description: Spectral Volumetric Path Tracing using Vulkan
+description: Spectral volumetric path tracing using Vulkan
 img: assets/img/projects/vukan_volumetric_path_tracer/thumbnail.png
 importance: 1
 category: hobby

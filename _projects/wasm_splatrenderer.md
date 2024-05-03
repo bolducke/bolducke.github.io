@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gaussian Splatting Renderer 
-description: Gaussian Splatting Renderer for Desktop and Web.
+description: Gaussian splatting renderer for desktop and web
 img: assets/projects/wasm_splatrenderer/thumbnail.png
 importance: 1
 category: hobby
