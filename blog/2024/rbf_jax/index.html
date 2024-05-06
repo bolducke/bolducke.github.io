@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>cv | Karl-Étienne  Bolduc</title>
+    <title>Radial Basis Function (RBF) Interpolation with JAX | Karl-Étienne  Bolduc</title>
     <meta name="author" content="Karl-Étienne  Bolduc">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Flexible JAX Implementation of Radial Basis Function (RBF) Interpolation with Support for Standard Scipy Kernels">
     <meta name="keywords" content="udem, computer-graphics, cv, portfolio">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;B&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bolducke.github.io/cv/">
+    <link rel="canonical" href="https://bolducke.github.io/blog/2024/rbf_jax/">
     
     <!-- Dark Mode -->
     
@@ -68,8 +67,8 @@
               </li> -->
               
               <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
               </li>
 
 
@@ -96,8 +95,44 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <style> .pdf-embed-wrap-7da1aa95-5b86-414b-a3eb-7b14c10188ed { display: flex; flex-direction: column; width: 100%; height: 90vh; } .pdf-embed-container-7da1aa95-5b86-414b-a3eb-7b14c10188ed { height: 100%; } .pdf-link-7da1aa95-5b86-414b-a3eb-7b14c10188ed { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-7da1aa95-5b86-414b-a3eb-7b14c10188ed iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-7da1aa95-5b86-414b-a3eb-7b14c10188ed"> <div class="pdf-link-7da1aa95-5b86-414b-a3eb-7b14c10188ed"> <a href="/assets/cv/cv_10-01-2024.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-7da1aa95-5b86-414b-a3eb-7b14c10188ed"> <iframe src="/assets/cv/cv_10-01-2024.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Radial Basis Function (RBF) Interpolation with JAX</h1>
+    <p class="post-meta">May 3, 2024</p>
+    <p class="post-tags">
+      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>
+        ·  
+        <a href="/blog/category/python">
+          <i class="fas fa-tag fa-sm"></i> Python,</a>  
+          <a href="/blog/category/jax">
+          <i class="fas fa-tag fa-sm"></i> JAX</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>The RBF interpolation from scipy is widely use in the community. However, the library is limited by a set of pre-defined kernel functions and lack of parallelization.</p>
+
+<p>Through JAX, I was able to make a program that is:</p>
+
+<ul>
+  <li>Flexible by letting you choose the kernel and the norm</li>
+  <li>Differentiable by making easy to compute the gradient</li>
+  <li>Parallelizable by taking advantage of JAX parallelization system</li>
+</ul>
+
+<p><em>Feel free to make a comment if you see any mistake</em></p>
+
+<noscript><pre>400: Invalid request</pre></noscript>
+<script src="https://gist.github.com/dcb266a950ea99167ac2a7aac64730be.js"> </script>
+
+
+  </article>
+</div>
 
     </div>
 
