@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bolducke.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bolducke.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-06T07:14:28+00:00</updated><id>https://bolducke.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://bolducke.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bolducke.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-07T18:37:21+00:00</updated><id>https://bolducke.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Radial Basis Function (RBF) Interpolation with JAX</title><link href="https://bolducke.github.io/blog/2024/rbf_jax/" rel="alternate" type="text/html" title="Radial Basis Function (RBF) Interpolation with JAX" /><published>2024-05-03T11:59:00+00:00</published><updated>2024-05-03T11:59:00+00:00</updated><id>https://bolducke.github.io/blog/2024/rbf_jax</id><content type="html" xml:base="https://bolducke.github.io/blog/2024/rbf_jax/"><![CDATA[<p>The RBF interpolation from scipy is widely use in the community. However, the library is limited by a set of pre-defined kernel functions and lack of parallelization.</p>
 
 <p>Through JAX, I was able to make a program that is:</p>
 
 <ul>
-  <li>Flexible by letting you choose the kernel and the norm</li>
+  <li>Flexible by letting you choose the kernel and how to compute the norm</li>
   <li>Differentiable by making easy to compute the gradient</li>
-  <li>Parallelizable by taking advantage of JAX parallelization system</li>
+  <li>Parallelizable by taking advantage of parallel evaluation of JAX</li>
 </ul>
 
 <p><em>Feel free to make a comment if you see any mistake</em></p>
