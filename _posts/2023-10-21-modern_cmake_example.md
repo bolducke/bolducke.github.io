@@ -8,6 +8,6 @@ disqus_comments: false
 related_posts: false
 ---
 
-Because there is a lack of example online using CMake and targets, I decided to make the following gist public for my futur self. 
+Because there is a lack of example online using Modern CMake and targets, I made the following gist public to support glad, SDL2 and imgui:
 
 `{% gist 98575d9a544654b5c659e425e20d3ba4 %}

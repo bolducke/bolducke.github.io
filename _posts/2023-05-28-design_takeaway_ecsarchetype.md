@@ -8,13 +8,13 @@ disqus_comments: false
 related_posts: false
 ---
 
-For my breakout game, I wanted to explore different system designs and stay away from OOP. I intentionally overcomplicated my project to spot potential "pain point".
+For my breakout game, I wanted to test different system designs and stay away from OOP. I intentionally overcomplicated my project to spot potential "pain point".
 
 # Close Set / Open Set Mindset
 
-My mindset was to change my perspective from an "open-set" to a "close-set" problem. It's very hard to successfully create a *future-proof* project/library. A good *real-life* example is Vulkan with their API where they recently *backed down* from their original API (proposed in 2016) because most people, in the game dev. community, were unsatisfied with.
+My goal was to change my perspective from an "open-set" to a "close-set" problem. It's very hard to successfully create a *future-proof* project/library. A good *real-life* example is Vulkan with their API where they recently *backed down* from their original API (proposed in 2016). They claimed back-then that Vulkan was future-proof.
 
-In that regard, by having an "close-set" mentality, I went for the simplest approach that I came up. In small time frame, I was able to build something way more efficiently than before. 
+In that regard, by having an "close-set" mentality, I went for the simplest approach that I came up. In a small time frame, I was able to build something much quicker than before. 
 
 # ECS Coupling
 
@@ -34,7 +34,7 @@ Personally, I separated each pool to process them because it is was more common 
 
 # Breakdown: Subtype Polymorphism & Archetype Design
 
-Before this experiment, I always went for OOP without truly thinking about why I was using OOP in the first place. I try something differently. I was always finding myself in this over-abstraction hole and was heavily slowdown. Anyway, this is a very profound and interesting subject and I am just beginning to form an opinion of my own. I present two simple showcase highlighting the main difference between those two approaches.
+Before this experiment, I always went for OOP without truly thinking about why I was using OOP in the first place. I try something differently. I was always finding myself in this over-abstraction hole and was heavily slowdown. Anyway, this is a very profound and interesting subject and I am just beginning to have an opinion of my own. I present two simple showcases highlighting the main difference between those two approaches.
 
 ## Subtype Polymorphism
 
